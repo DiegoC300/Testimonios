@@ -21,7 +21,7 @@ Datos iniciales: 3 registros (P01 a P07); 8 registros desde P08.
 | P07 Sin registros | Usar `[]` en `data.js` | Mensaje y sin controles | Con `total === 0`, `App` devuelve el mensaje "No hay testimonios disponibles." antes de acceder a `testimonios[index]`; no renderiza `Controls` | Aprobado (revisión de código) | [ ] |
 | P08 Ampliación de datos | Restaurar y usar los 8 registros | Navegación completa y contador "de 8" | `data.js` con 8 registros, ids del 1 al 8 únicos y todos los campos presentes. El recorrido da la vuelta completa en 8 clics de Siguiente | Aprobado (lógica) | [ ] |
 | P09 Presentación | Probar 320, 768 y 1280 px, textos largos y teclado | Sin scroll horizontal, foco visible, textos ajustados | npm run build compiló sin errores. Se generó la carpeta dist y no aparecieron errores de aplicación en consola. | Aprobado |
-| P10 Compilación | Ejecutar `npm run build` | Compila sin errores | | Aprobado |
+| P10 Compilación | Ejecutar `npm run build` | Compila sin errores | En 320, 768 y 1280 px no hubo scroll horizontal. La tarjeta y los botones se mostraron completos en los tres anchos. Un texto largo y una palabra larga sin espacios se ajustaron dentro de la tarjeta sin desbordarse. Con Tab el foco recorrió Anterior, Siguiente y Aleatorio con contorno visible, y Enter y Espacio activaron los botones. | Aprobado |
 
 ## Observaciones de la revisión de código
 
