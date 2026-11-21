@@ -20,15 +20,15 @@ manual mediante componentes, props y estado.
 
 | Herramienta | Versión |
 |---|---|
-| Node.js (`node -v`) | v__.__.__ |
-| npm (`npm -v`) | __.__.__ |
+| Node.js (`node -v`) | v24.21.0|
+| npm (`npm -v`) | 11.19.0|
 | React | 19 |
 | Vite | 8 |
 
 ## Instalación y ejecución
 
 ```bash
-git clone <URL-del-repositorio>
+git clone <https://github.com/DiegoC300/Testimonios>
 cd Testimonios
 npm install
 npm run dev        # servidor de desarrollo
@@ -83,7 +83,6 @@ src/
 - Cada tarea se trabajó en su propia rama y se integró mediante Pull Request
   revisado por el otro integrante.
 - Los roles de conductor y observador se alternaron entre tareas.
-- Revisión por otra pareja: (nombres de la pareja revisora y fecha).
 
 ## Pruebas
 
